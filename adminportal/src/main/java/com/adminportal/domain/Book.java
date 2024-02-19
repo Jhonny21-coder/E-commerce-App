@@ -41,10 +41,10 @@ public class Book {
 	@Transient
 	private MultipartFile bookImage;
 	
-	@OneToMany(mappedBy = "book")
+	/*@OneToMany(mappedBy = "book")
 	@JsonIgnore
 	private List<BookToCartItem> bookToCartItemList;
-	
+	*/
 
 	public Long getId() {
 		return id;

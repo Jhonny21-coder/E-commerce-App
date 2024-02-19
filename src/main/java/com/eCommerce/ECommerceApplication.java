@@ -24,6 +24,10 @@ public class ECommerceApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(ECommerceApplication.class, args);
 	}
-	
+
+	@Override
+    	public void run(String... args) throws Exception {
+        // Implement any initialization logic here
+    	}
 
 }

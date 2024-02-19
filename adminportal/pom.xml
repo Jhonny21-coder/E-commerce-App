@@ -78,6 +78,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+    			<groupId>com.eCommerce</groupId> <!-- Replace with the groupId of the source project -->
+    			<artifactId>eCommerce</artifactId> <!-- Replace with the artifactId of the source project -->
+    			<version>0.0.1-SNAPSHOT</version> <!-- Replace with the version of the source project -->
+		</dependency>
 	</dependencies>
 
 	<build>
